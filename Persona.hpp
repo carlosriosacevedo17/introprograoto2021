@@ -32,6 +32,7 @@ public:
     {
         cout << "El nombre es: " << getNombre() << endl;
         cout << "El paterno es: " << getPaterno() << endl;
+        cout << "La estatura es: " << getEstatura() << endl;
     }
 
 };
