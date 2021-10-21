@@ -20,9 +20,18 @@ public:
     {
         return paterno;
     }
+    void setEstatura(float e)
+    {
+        estatura = e;
+    }
+    float getEstatura()
+    {
+        return estatura;
+    }
     void imprimeDatos()
     {
         cout << "El nombre es: " << getNombre() << endl;
         cout << "El paterno es: " << getPaterno() << endl;
     }
+
 };
